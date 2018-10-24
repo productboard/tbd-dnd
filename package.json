@@ -1,0 +1,17 @@
+{
+  "name": "tbd-dnd",
+  "version": "0.0.1",
+  "description": "TBD",
+  "main": "src/index.ts",
+  "repository": "tbd",
+  "author": "productboard & fellas",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "invariant": "^2.2.4",
+    "react": "16.6.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.14.3"
+  }
+}

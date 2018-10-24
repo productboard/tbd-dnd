@@ -1,0 +1,17 @@
+# dependencies
+node_modules
+# improves git perf when working on dep management
+node_modules.bak*
+
+# misc
+npm-debug.log
+lerna-debug.log
+.DS_Store
+yarn-error.log
+dump.rdb
+
+# ide, editors
+*.sublime-workspace
+*.sublime-project
+.idea/
+.vscode/
