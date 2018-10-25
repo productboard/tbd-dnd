@@ -43,21 +43,10 @@ function getPositioningForChild(
     }
   })()
 
-  const nanProperty = Object.keys(result).find(k => {
-    const value = result[k as TPositioningKey]
-    return typeof value === 'number' && isNaN(value)
-  })
-  invariant(
-    !nanProperty,
-    `libs/positioning: Result of positioning cannot be NaN. Found for property '${String(
-      nanProperty,
-    )}' on ${child.type}: ${child.id}'`,
-  )
-
   return result
 }
 
-function getPositioningForBox(box: TBox, context: TContext): TPositioning {
+export function getPositioningForBox(box: TBox, context: TContext): TPositioning {
   const result = {
     x: NaN, // will be calculated
     y: NaN,
