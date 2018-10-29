@@ -123,7 +123,7 @@ export default class DraggableCanvasElement extends React.Component<Props> {
     event.stopPropagation()
   }
 
-  onMouseDown = (event: MouseEvent) => {
+  onMouseDown = (event: React.MouseEvent<HTMLDivElement>) => {
     if (event.button !== MOUSE_BUTTON_LEFT) return
 
     DRAG_EVENTS.forEach(eventName =>
@@ -172,7 +172,7 @@ export default class DraggableCanvasElement extends React.Component<Props> {
       height,
       zIndex,
       transition,
-      position: 'absolute',
+      position: 'absolute' as 'absolute',
       top: 0,
       left: 0,
     }

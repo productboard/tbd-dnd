@@ -1,5 +1,3 @@
-import invariant from 'invariant'
-
 import { TSection } from './Section'
 import { TBox } from './Box'
 
@@ -14,8 +12,6 @@ export type TPositioning = {
   height: number
   position: 'relative' | 'fixed'
 }
-
-type TPositioningKey = keyof TPositioning
 
 type TContext = {
   sections: { [key: string]: TPositioning }

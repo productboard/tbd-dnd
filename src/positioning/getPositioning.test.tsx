@@ -1,5 +1,3 @@
-import _ from 'lodash'
-
 import { getPositioningForBox } from './generatePositioning'
 import Box from './Box'
 
