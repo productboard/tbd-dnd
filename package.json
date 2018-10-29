@@ -1,24 +1,45 @@
 {
   "name": "tbd-dnd",
-  "version": "0.0.1",
-  "description": "TBD",
-  "main": "src/index.ts",
-  "repository": "tbd",
+  "version": "0.0.1-alpha.001",
+  "description": "https://gist.github.com/Aldredcz/1a0a70efee3f12fc343df6b452c6aa29",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/productboard/tbd-dnd"
+  },
+  "main": "dist/tbd-dnd.cjs.js",
+  "module": "dist/tbd-dnd.es.js",
+  "unpkg": "dist/tbd-dnd.umd.min.js",
   "author": "productboard & fellas",
   "license": "MIT",
-  "private": false,
+  "bugs": {
+    "url": "https://github.com/productboard/tbd-dnd/issues"
+  },
+  "homepage": "https://github.com/productboard/tbd-dnd",
+  "keywords": [
+    "react",
+    "dnd",
+    "draganddrop",
+    "dragndrop"
+  ],
   "scripts": {
+    "build": "rollup -c",
+    "prepublish": "yarn run build",
     "ts": "yarn tsc --noEmit",
     "ts:watch": "yarn ts -- --watch"
   },
-  "dependencies": {
-    "react": "16.6.0"
+  "peerDependencies": {
+    "react": "^15.0.0 || ^16.0.0"
   },
   "devDependencies": {
     "@types/jest": "^23.3.7",
     "@types/react": "^16.4.18",
     "jest": "^23.6.0",
     "prettier": "^1.14.3",
+    "rollup": "^0.66.6",
+    "rollup-plugin-license": "^0.7.0",
+    "rollup-plugin-typescript": "^1.0.0",
+    "rollup-plugin-uglify": "^6.0.0",
+    "tslib": "^1.9.3",
     "ts-jest": "^23.10.4",
     "typescript": "^3.1.3"
   }

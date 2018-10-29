@@ -15,3 +15,6 @@ dump.rdb
 *.sublime-project
 .idea/
 .vscode/
+
+# build
+dist/
