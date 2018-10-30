@@ -12,6 +12,36 @@ Reach me out on Twitter: https://twitter.com/vojta_prikryl
 ## Docs
 Coming soon.
 
+**DraggableCanvas**
+
+Prop | Type | Description
+---|---|---
+getWrapperEl? | () => Maybe<HTMLElement> | TODO
+detectScrollEvents? | boolean | TODO
+detectEdgeDragging? | boolean | TODO
+onEdgeDragging? | (delta: Coordinates) => void | TODO
+onElementDragStart? | (id: Id, ev: MouseEvent) => void | TODO
+onElementDrag? | (id: Id, x: number, y: number) => void | TODO
+onElementDrop? | (id: Id) => void | TODO
+onElementDropAnimationEnd? | (id: Id) => void | TODO
+children | (params: ChildrenFunctionParams<Id>) => React.ReactNode | TODO
+ 
+
+**DraggableCanvasElement**
+
+Prop | Type | Description 
+---|---|---
+x | number | TODO 
+y | number | TODO 
+forbidDragging? | boolean | TODO 
+isDragged? | boolean | TODO 
+onDragStart? | (ev: MouseEvent) => void | TODO 
+onDrag? | (x: number, y: number) => void | TODO 
+onDrop? | () => void | TODO 
+preventClickEventAfterDrag? | boolean | TODO 
+children | React.ReactNode | TODO 
+
+
 ## Example
 https://codepen.io/aldredcz/project/editor/ZnNMVg
 
