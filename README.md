@@ -43,6 +43,8 @@ children | React.ReactNode | TODO
 
 
 ## Example
+
+Basic example demonstrating how to user `DraggableCanvasElement` and `DraggableCanvas` API:
 https://codepen.io/aldredcz/project/editor/ZnNMVg
 
 ## Preview ([click for full version](http://data.aldred.cz/pb-roadmap.mp4))
