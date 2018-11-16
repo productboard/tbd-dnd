@@ -1,13 +1,13 @@
 # tbd-dnd
 
-Drag and Drop is undoubtedly one of the most popular and user-friendly interactions in software nowadays. There are plenty awesome libraries for DnD in React realm, covering most of the use cases. We tried them all at @productboard, but realized we need something special for complex interfaces we are building. We developed our own solution that satisfied three main requirements we had:
+The library was presented at ReactiveConf 2018, [check it out](https://www.youtube.com/watch?v=81K49MN0dM8&t=396)!
 
-1. Delightful user experience 🤩
-2. Great performance even for large datasets 🏎
-3. Reusability of already existing code 🔌
+I'd like to point out, that this library might be great help when building complex animated UIs. If you need simple things like sorted lists, I recommend you to use one of these instead:
 
-Questions? Ideas? Your experience with Drag and Drop?
-Reach me out on Twitter: https://twitter.com/vojta_prikryl
+- [react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd)
+- [react-sortable-hoc](https://github.com/clauderic/react-sortable-hoc)
+
+Also, this project is in very early stage of development and the API will most likely change a lot. Main purpose is to demonstrate our use-case and gather feedback, if you wanna achieve something similar. If so, say hi at [vojta@productboard.com](mailto:vojta@productboard.com) / [twitter.com/vojta_prikryl](https://twitter.com/vojta_prikryl)
 
 ## Docs
 Coming soon.
